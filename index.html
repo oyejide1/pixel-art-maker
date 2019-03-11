@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pixel Art Maker</title>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>A Pixel Art Maker</h1>
+        </header>
+        <section>
+            <div id="grid-dimensions">
+                <h4>Set The grid size (You can only set Grid once per design)</h4>
+                <form name="fname">
+                    <div>
+                        <span id="dimension">Grid Height:<input type="number" id="height" name='grid-height' min="1" value="1"></span>
+                        <span id="dimension">Grid width:<input type="number" id="width" name='grid-width' min="1" value="1"></span>
+                        <input type="submit">
+                    </div>
+                </form>
+                <h4>Select/Reset the color at any time</h4>
+                <div class="grid-color">
+                    <span>Color:</span><input type="color" id="color-picker" name="prefered-color">
+                </div>
+            </div>
+            <div>
+                <h4>Click the Grid cells to make your design</h4>
+                <table id="pixelCanvas"></table>
+            </div>
+        </section>
+        
+        <script src="design.js"></script>
+    </body>
+</html>

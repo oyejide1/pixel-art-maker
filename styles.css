@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    margin: 0 0 45px; border: 1px solid black; padding: 10px;
+    max-width: 100%; height: auto;
+    font: normal bold 2.5em Monoton;
+    background-color: rgb(89, 223, 145);
+}
+
+section{
+    margin: 5px;
+}
+
+h3{
+    margin: 25px 0;
+}
+
+input[type=number]{
+    margin: 3px;
+    width: 5em;
+}
+
+#dimension, input[type=submit]{
+    display: inline-block;
+}
+
+@media only screen and (min-width: 350px){
+    #dimension{
+        display: inline;
+    }  
+}
+
+@media only screen and (min-width: 700px){
+    input[type=submit]{
+        display: inline;
+    }  
+}
+
+table,tr,td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}

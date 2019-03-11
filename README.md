@@ -1,2 +1,2 @@
 # pixel-art-maker
-A pixel art maker made as alcwithgoogle on udacity project 
+A web App feature that allows users to make simple pixel design.
